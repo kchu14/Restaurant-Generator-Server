@@ -1,0 +1,26 @@
+# get http://localhost:8080/api/restaurants
+
+post https://restaurants-for-you-server.herokuapp.com/api/restaurants
+Content-Type: application/json
+
+{
+    "name": "test",
+    "yelpLink": "testLink"
+
+}
+
+post http://localhost:8080/api/useradmins
+Content-Type: application/json
+
+{
+    "name": "test",
+    "email": "testLink",
+    "userName": "testLink",
+    "password": "testLink",
+    "locationLong": 0.0,
+    "locationLat": 0.0,
+    "likedRestaurants": null
+
+}
+
+
